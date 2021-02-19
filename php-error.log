@@ -1,0 +1,21 @@
+[18-Feb-2021 22:07:33 UTC] hello, errors!
+[18-Feb-2021 22:07:34 UTC] APP::CONSTRUCT-> NO HAY CONTROLADOR ESPECIFICADO
+[18-Feb-2021 22:07:34 UTC] PHP Warning:  require_once(controllers/login.php): failed to open stream: No such file or directory in C:\MAMP\htdocs\Proyecto-Gestion-de-Presupuesto\libs\app.php on line 12
+[18-Feb-2021 22:07:34 UTC] PHP Fatal error:  require_once(): Failed opening required 'controllers/login.php' (include_path='.;C:\php\pear') in C:\MAMP\htdocs\Proyecto-Gestion-de-Presupuesto\libs\app.php on line 12
+[18-Feb-2021 22:16:27 UTC] hello, errors!
+[18-Feb-2021 22:16:27 UTC] APP::CONSTRUCT-> NO HAY CONTROLADOR ESPECIFICADO
+[18-Feb-2021 22:16:27 UTC] Login::construct -> inicio de Login
+[18-Feb-2021 23:39:05 UTC] hello, errors!
+[18-Feb-2021 23:39:05 UTC] APP::CONSTRUCT-> NO HAY CONTROLADOR ESPECIFICADO
+[18-Feb-2021 23:39:05 UTC] Login::construct -> inicio de Login
+[18-Feb-2021 23:39:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Login::loadModel() in C:\MAMP\htdocs\Proyecto-Gestion-de-Presupuesto\libs\app.php:14
+Stack trace:
+#0 C:\MAMP\htdocs\Proyecto-Gestion-de-Presupuesto\index.php(23): App->__construct()
+#1 {main}
+  thrown in C:\MAMP\htdocs\Proyecto-Gestion-de-Presupuesto\libs\app.php on line 14
+[18-Feb-2021 23:43:13 UTC] hello, errors!
+[18-Feb-2021 23:43:13 UTC] APP::CONSTRUCT-> NO HAY CONTROLADOR ESPECIFICADO
+[18-Feb-2021 23:43:13 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\MAMP\htdocs\Proyecto-Gestion-de-Presupuesto\controllers\login.php on line 12
+[18-Feb-2021 23:43:15 UTC] hello, errors!
+[18-Feb-2021 23:43:15 UTC] APP::CONSTRUCT-> NO HAY CONTROLADOR ESPECIFICADO
+[18-Feb-2021 23:43:15 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\MAMP\htdocs\Proyecto-Gestion-de-Presupuesto\controllers\login.php on line 12
